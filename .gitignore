@@ -39,3 +39,40 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# =========================
+# FastAPI / Python Server
+# =========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing and Coverage (Python)
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+# Type checking & Linting
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Database / SQLite (Common for local FastAPI dev)
+*.sqlite3
+*.db
+
+# FastAPI / Uvicorn specific (if logging locally)
+*.log
